@@ -30,6 +30,9 @@ ul {
 li {
     display: list-item;
 }
+/* .flex {
+    display: flex;
+} */
 
 .container {
     margin-left: auto;
@@ -333,10 +336,6 @@ li {
 
 /* Footer-subscribe */
 
-/* .subscribe {
-    display: flex;
-} */
-
 .subscribe {
     margin-left: 93px;
 }
@@ -352,27 +351,47 @@ li {
 }
 
 .footer-form {
+    display: flex;
+    align-items: center;
     margin-top: 15px;
 }
 
 .footer-input {
     width: 358px;
+    height: 50px;
     padding-left: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
+    font-size: 16px;
     color: var(--secondary-text-color);
     background-color: var(--footer-background-color);
 }
 
- .footer-subscribe .button {
+.subscribe-button {
     display: flex;
-    justify-content: center;
     align-items: center;
-    align-self: flex-end;
+    margin-left: 12px;
+    padding: 10px 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 0.5;
+    width: 200px;
+    height: 50px;
+    border-style: none;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--primery-white-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 } 
+
 .icon-send {
+    margin-left: 10px;
     width: 24px;
     height: 24px; 
     fill: var(--primery-white-color);
