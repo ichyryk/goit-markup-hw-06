@@ -299,7 +299,11 @@ li {
 
 .block-address {
     margin-top: 20px;
+    font-family: Roboto;
     font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .block-address .link{
