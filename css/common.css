@@ -331,4 +331,49 @@ li {
     margin-top: 9px;
 }
 
+/* Footer-subscribe */
 
+/* .subscribe {
+    display: flex;
+} */
+
+.subscribe {
+    margin-left: 93px;
+}
+
+.footer-subscribe {
+    margin: 0;
+    color: var(--primery-white-color);
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-form {
+    margin-top: 15px;
+}
+
+.footer-input {
+    width: 358px;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: var(--secondary-text-color);
+    background-color: var(--footer-background-color);
+}
+
+ .footer-subscribe .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+} 
+.icon-send {
+    width: 24px;
+    height: 24px; 
+    fill: var(--primery-white-color)
+}
