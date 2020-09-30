@@ -13,6 +13,7 @@
     --secondary-text-color: rgba(255, 255, 255, 0.6);
     --footer-background-color: #2F303A;
     --footer-background-icon: rgba(255, 255, 255, 0.1);
+    --icon-color: #afb1b8;
     /* var */
 }
 
@@ -144,7 +145,7 @@ li {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    fill: currentColor;
+    fill: var(--icon-color);
 }
 
 .social-icon-item:not(:last-child) {
@@ -160,6 +161,7 @@ li {
 }
 .social-icon-link:hover {
    background-color: var(--accent-color);
+    fill: var(--primery-white-color);
 }
 
 .social-icon-link:hover .team-icon,
@@ -287,7 +289,7 @@ li {
 .footer-join .social-icon-link {
     color: var(--primery-white-color);
     background-color: var(--footer-background-icon);
-   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-join .social-icon-link:hover,
